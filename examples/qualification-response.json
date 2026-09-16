@@ -1,0 +1,166 @@
+[
+  {
+    "id": "57153319-38de-44f0-beec-3e4565cd127f",
+    "data": {
+      "budget": 40000.0,
+      "company": "Atlas Logistica (ficticia)",
+      "company_size": 120,
+      "email": "marina@example.test",
+      "interest": "Automacao de conciliacao de pedidos",
+      "message": "Temos 4 pessoas conciliando planilhas diariamente. Quero automatizar o processo e integrar nosso ERP. Tenho R$ 40 mil aprovados e gostaria de iniciar neste mes. Posso aprovar a contratacao.",
+      "name": "Marina Demo",
+      "phone": "+55 11 0000-0000",
+      "role": "Diretora de operacoes com poder de aprovacao",
+      "segment": "Logistica",
+      "source": "website"
+    },
+    "score": 83,
+    "classification": "quente",
+    "analysis": {
+      "fit": 25,
+      "urgency": 20,
+      "budget": 20,
+      "authority": 18,
+      "reasons": [
+        "A Atlas Logistica tem um processo manual de conciliação de pedidos que pode ser automatizado, o que pode melhorar a eficiência e reduzir erros.",
+        "O investimento de R$ 40.000 é uma quantia significativa para iniciar o projeto neste mês.",
+        "A Diretora de Operações tem poder de aprovação, o que sugere que há um interesse genuíno em automatizar o processo.",
+        "A empresa está procurando por soluções de automação e integração com seu ERP, indicando uma necessidade real de ajuda."
+      ],
+      "intent": "Investir em solução de automação para conciliação de pedidos",
+      "next_action": "Agendar uma reunião para discutir as opções de soluções de automação",
+      "outreach": "Contatar a equipe de vendas para agendar uma reunião e discutir as opções de soluções de automação",
+      "model": "llama3.2:3b",
+      "rubric_version": 1
+    },
+    "created_at": "2026-09-16T12:42:45.223486+00:00",
+    "updated_at": "2026-09-16T12:47:40.678756+00:00",
+    "history": [
+      {
+        "kind": "created",
+        "detail": "Lead registered.",
+        "created_at": "2026-09-16T12:42:45.224994+00:00"
+      },
+      {
+        "kind": "qualified",
+        "detail": "{\"score\": 63, \"classification\": \"morno\", \"fit\": 15, \"urgency\": 10, \"budget\": 20, \"authority\": 18, \"reasons\": [\"A empresa n\\u00e3o forneceu informa\\u00e7\\u00f5es suficientes sobre o software ou automa\\u00e7\\u00e3o que est\\u00e3o procurando implementar.\", \"O prazo para iniciar a contrata\\u00e7\\u00e3o \\u00e9 muito curto (este m\\u00eas) e n\\u00e3o h\\u00e1 garantia de que isso possa ser feito dentro desse tempo.\", \"O or\\u00e7amento dispon\\u00edvel \\u00e9 muito baixo (R$ 40.000,00) em compara\\u00e7\\u00e3o com o tamanho da empresa (120 pessoas).\", \"A Diretora de Opera\\u00e7\\u00f5es tem poder de aprovacao, mas n\\u00e3o h\\u00e1 garantia de que ela possa aprovar a contrata\\u00e7\\u00e3o sem mais informa\\u00e7\\u00f5es ou discuss\\u00e3o.\"], \"intent\": \"Iniciar negocia\\u00e7\\u00e3o para automatizar o processo de concilia\\u00e7\\u00e3o de pedidos e integrar com ERP.\", \"next_action\": \"Enviar uma proposta detalhada com op\\u00e7\\u00f5es de solu\\u00e7\\u00f5es e pre\\u00e7os\", \"outreach\": \"Contatar a Diretora de Opera\\u00e7\\u00f5es para discutir as op\\u00e7\\u00f5es de automa\\u00e7\\u00e3o e or\\u00e7amento.\", \"model\": \"llama3.2:3b\", \"rubric_version\": 1}",
+        "created_at": "2026-09-16T12:44:20.163603+00:00"
+      },
+      {
+        "kind": "qualified",
+        "detail": "{\"score\": 83, \"classification\": \"quente\", \"fit\": 25, \"urgency\": 20, \"budget\": 20, \"authority\": 18, \"reasons\": [\"A Atlas Logistica tem um processo manual de concilia\\u00e7\\u00e3o de pedidos que pode ser automatizado, o que pode melhorar a efici\\u00eancia e reduzir erros.\", \"O investimento de R$ 40.000 \\u00e9 uma quantia significativa para iniciar o projeto neste m\\u00eas.\", \"A Diretora de Opera\\u00e7\\u00f5es tem poder de aprova\\u00e7\\u00e3o, o que sugere que h\\u00e1 um interesse genu\\u00edno em automatizar o processo.\", \"A empresa est\\u00e1 procurando por solu\\u00e7\\u00f5es de automa\\u00e7\\u00e3o e integra\\u00e7\\u00e3o com seu ERP, indicando uma necessidade real de ajuda.\"], \"intent\": \"Investir em solu\\u00e7\\u00e3o de automa\\u00e7\\u00e3o para concilia\\u00e7\\u00e3o de pedidos\", \"next_action\": \"Agendar uma reuni\\u00e3o para discutir as op\\u00e7\\u00f5es de solu\\u00e7\\u00f5es de automa\\u00e7\\u00e3o\", \"outreach\": \"Contatar a equipe de vendas para agendar uma reuni\\u00e3o e discutir as op\\u00e7\\u00f5es de solu\\u00e7\\u00f5es de automa\\u00e7\\u00e3o\", \"model\": \"llama3.2:3b\", \"rubric_version\": 1}",
+        "created_at": "2026-09-16T12:47:40.681580+00:00"
+      },
+      {
+        "kind": "crm_simulated",
+        "detail": "Saved to local CRM simulator: DEMO-bc0222b8",
+        "created_at": "2026-09-16T12:48:33.763520+00:00"
+      }
+    ],
+    "crm": {
+      "external_id": "DEMO-bc0222b8",
+      "updated_at": "2026-09-16T12:48:33.761510+00:00",
+      "simulated": true
+    }
+  },
+  {
+    "id": "6a1b5290-64cd-4cdc-84fe-2e327d9cb422",
+    "data": {
+      "budget": 5000.0,
+      "company": "Norte Comercio (ficticia)",
+      "company_size": 25,
+      "email": "rafael@example.test",
+      "interest": "Conhecer integracoes de CRM",
+      "message": "Estou pesquisando alternativas de integracao de CRM para apresentar ao gestor. Ainda nao definimos um prazo nem aprovamos o investimento.",
+      "name": "Rafael Demo",
+      "phone": "+55 21 0000-0000",
+      "role": "Analista comercial",
+      "segment": "Comercio",
+      "source": "referral"
+    },
+    "score": 50,
+    "classification": "morno",
+    "analysis": {
+      "fit": 15,
+      "urgency": 18,
+      "budget": 12,
+      "authority": 5,
+      "reasons": [
+        "Conhecer integracoes de CRM",
+        "Ainda nao definimos um prazo nem aprovamos o investimento.",
+        "Norte Comercio (ficticia) tem 25 funcionarios, mas nao especificou interesse em automacao/integracao.",
+        "O analista comercial pode apresentar ao gestor, mas sem autoridade informada."
+      ],
+      "intent": "Conhecer mais sobre integracoes de CRM",
+      "next_action": "Contatar o analista comercial para discutir possibilidades",
+      "outreach": "E-mail ou ligação com o analista comercial",
+      "model": "llama3.2:3b",
+      "rubric_version": 1
+    },
+    "created_at": "2026-09-16T12:42:45.231022+00:00",
+    "updated_at": "2026-09-16T12:49:39.530684+00:00",
+    "history": [
+      {
+        "kind": "created",
+        "detail": "Lead registered.",
+        "created_at": "2026-09-16T12:42:45.232022+00:00"
+      },
+      {
+        "kind": "qualified",
+        "detail": "{\"score\": 50, \"classification\": \"morno\", \"fit\": 15, \"urgency\": 18, \"budget\": 12, \"authority\": 5, \"reasons\": [\"Conhecer integracoes de CRM\", \"Ainda nao definimos um prazo nem aprovamos o investimento.\", \"Norte Comercio (ficticia) tem 25 funcionarios, mas nao especificou interesse em automacao/integracao.\", \"O analista comercial pode apresentar ao gestor, mas sem autoridade informada.\"], \"intent\": \"Conhecer mais sobre integracoes de CRM\", \"next_action\": \"Contatar o analista comercial para discutir possibilidades\", \"outreach\": \"E-mail ou liga\\u00e7\\u00e3o com o analista comercial\", \"model\": \"llama3.2:3b\", \"rubric_version\": 1}",
+        "created_at": "2026-09-16T12:49:39.533685+00:00"
+      }
+    ],
+    "crm": null
+  },
+  {
+    "id": "921d5f83-384b-4bda-8468-e2db35f7e270",
+    "data": {
+      "budget": 0.0,
+      "company": "Estudio Horizonte (ficticio)",
+      "company_size": 4,
+      "email": "julia@example.test",
+      "interest": "Pesquisa sobre ferramentas",
+      "message": "Quero apenas material introdutorio para conhecer ferramentas. Nao temos projeto, prazo ou verba para contratar agora.",
+      "name": "Julia Demo",
+      "phone": "+55 31 0000-0000",
+      "role": "Assistente",
+      "segment": "Design",
+      "source": "event"
+    },
+    "score": 5,
+    "classification": "frio",
+    "analysis": {
+      "fit": 0,
+      "urgency": 5,
+      "budget": 0,
+      "authority": 0,
+      "reasons": [
+        "Sem verba explicitamente aprovada",
+        "Nao ha prazo definido para iniciar o projeto",
+        "Nao ha autoridade informada para aprovar contratacao",
+        "Interesse especifico sem processo descrito"
+      ],
+      "intent": "Pesquisar ferramentas de software e automacao",
+      "next_action": "Contatar o Estudio Horizonte para discutir possibilidades",
+      "outreach": "Enviar uma mensagem de introdução para o Assistente do Estudio Horizonte",
+      "model": "llama3.2:3b",
+      "rubric_version": 1
+    },
+    "created_at": "2026-09-16T12:42:45.238058+00:00",
+    "updated_at": "2026-09-16T12:50:22.512930+00:00",
+    "history": [
+      {
+        "kind": "created",
+        "detail": "Lead registered.",
+        "created_at": "2026-09-16T12:42:45.240061+00:00"
+      },
+      {
+        "kind": "qualified",
+        "detail": "{\"score\": 5, \"classification\": \"frio\", \"fit\": 0, \"urgency\": 5, \"budget\": 0, \"authority\": 0, \"reasons\": [\"Sem verba explicitamente aprovada\", \"Nao ha prazo definido para iniciar o projeto\", \"Nao ha autoridade informada para aprovar contratacao\", \"Interesse especifico sem processo descrito\"], \"intent\": \"Pesquisar ferramentas de software e automacao\", \"next_action\": \"Contatar o Estudio Horizonte para discutir possibilidades\", \"outreach\": \"Enviar uma mensagem de introdu\\u00e7\\u00e3o para o Assistente do Estudio Horizonte\", \"model\": \"llama3.2:3b\", \"rubric_version\": 1}",
+        "created_at": "2026-09-16T12:50:22.514605+00:00"
+      }
+    ],
+    "crm": null
+  }
+]

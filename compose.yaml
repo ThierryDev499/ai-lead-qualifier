@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    ports: ["127.0.0.1:8104:8104"]
+    environment:
+      OLLAMA_URL: http://host.docker.internal:11434
+      CHAT_MODEL: ${CHAT_MODEL:-llama3.2:3b}
+      WEBHOOK_TOKEN: ${WEBHOOK_TOKEN:-}
+    extra_hosts: ["host.docker.internal:host-gateway"]
+    volumes: ["leads:/app/data"]
+volumes:
+  leads:

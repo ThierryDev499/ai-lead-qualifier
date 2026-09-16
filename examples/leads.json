@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Marina Demo",
+    "company": "Atlas Logistica (ficticia)",
+    "email": "marina@example.test",
+    "phone": "+55 11 0000-0000",
+    "role": "Diretora de operacoes com poder de aprovacao",
+    "company_size": 120,
+    "segment": "Logistica",
+    "budget": 40000,
+    "interest": "Automacao de conciliacao de pedidos",
+    "message": "Temos 4 pessoas conciliando planilhas diariamente. Quero automatizar o processo e integrar nosso ERP. Tenho R$ 40 mil aprovados e gostaria de iniciar neste mes. Posso aprovar a contratacao.",
+    "source": "website"
+  },
+  {
+    "name": "Rafael Demo",
+    "company": "Norte Comercio (ficticia)",
+    "email": "rafael@example.test",
+    "phone": "+55 21 0000-0000",
+    "role": "Analista comercial",
+    "company_size": 25,
+    "segment": "Comercio",
+    "budget": 5000,
+    "interest": "Conhecer integracoes de CRM",
+    "message": "Estou pesquisando alternativas de integracao de CRM para apresentar ao gestor. Ainda nao definimos um prazo nem aprovamos o investimento.",
+    "source": "referral"
+  },
+  {
+    "name": "Julia Demo",
+    "company": "Estudio Horizonte (ficticio)",
+    "email": "julia@example.test",
+    "phone": "+55 31 0000-0000",
+    "role": "Assistente",
+    "company_size": 4,
+    "segment": "Design",
+    "budget": 0,
+    "interest": "Pesquisa sobre ferramentas",
+    "message": "Quero apenas material introdutorio para conhecer ferramentas. Nao temos projeto, prazo ou verba para contratar agora.",
+    "source": "event"
+  }
+]
