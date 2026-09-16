@@ -2,7 +2,7 @@
 
 A local B2B qualification workspace with explainable commercial scoring, next-action recommendations and an explicitly simulated CRM destination. Built by [Thierry Azevedo](https://github.com/ThierryDev499).
 
-![Qualification workspace with a real local-model result](docs/workspace.png)
+![Qualification workspace with a real local-model result](docs/workspace.jpg)
 
 ## Problem
 
@@ -85,7 +85,7 @@ python -m pytest -q
 docker compose up --build
 ```
 
-Tests cover score bounds/labels, filters, CRM idempotency, webhook authentication/replays, input validation, model failures and omission of contact fields from inference. Unit tests use a fake model boundary and do not validate model accuracy. [Verification notes](docs/verification.md) record live checks; [mobile screenshot](docs/mobile.png).
+Tests cover score bounds/labels, filters, CRM idempotency, webhook authentication/replays, input validation, model failures and omission of contact fields from inference. Unit tests use a fake model boundary and do not validate model accuracy. [Verification notes](docs/verification.md) record live checks; [mobile screenshot](docs/mobile.jpg).
 
 Docker uses a non-root user, a named data volume and loopback port 8104. Host Ollama must be reachable via `host.docker.internal`; Linux hosts may need Ollama configured for the Docker bridge. Local Docker execution was not verified while Docker Engine was unavailable.
 
